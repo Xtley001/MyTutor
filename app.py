@@ -65,8 +65,8 @@ I want the response in the following structured format:
 """
 
 # Streamlit App
-st.set_page_config(page_title="TeachMe")
-st.title("TeachMe")
+st.set_page_config(page_title="MyTutor")
+st.title("MyTutor")
 
 # File uploader for slides (PDF, Word, or text) input
 uploaded_file = st.file_uploader("Upload Your Document (PDF, DOCX, TXT)...", type=["pdf", "docx", "txt"])
@@ -75,7 +75,7 @@ uploaded_file = st.file_uploader("Upload Your Document (PDF, DOCX, TXT)...", typ
 user_question = st.text_area("Type your question about the document content:")
 
 # Text input for page range
-page_range_input = st.text_input("Enter page ranges (e.g., 60-70):")
+page_range_input = st.text_input("Enter page ranges (e.g., 78-79):")
 
 # Initialize session state for history
 if 'history' not in st.session_state:

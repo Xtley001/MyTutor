@@ -202,3 +202,4 @@ if st.session_state.history:
 # Footer
 st.markdown("---")
 st.markdown("© 2024 by Christley")
+

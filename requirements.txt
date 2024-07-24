@@ -4,3 +4,4 @@ PyPDF2
 python-dotenv
 plotly
 pandas
+python-docx
